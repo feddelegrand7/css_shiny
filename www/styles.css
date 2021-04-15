@@ -1,0 +1,65 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+
+.navbar-default {
+    background-color: crimson;
+    border-color: darkgray;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+    color: whitesmoke;
+
+}
+
+.navbar-default .navbar-brand {
+    color: whitesmoke;
+}
+
+navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: blanchedalmond;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+}
+
+h1 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.property-set {
+    text-align: justify;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.col-sm-8 {
+    padding: 3rem; 
+}
+
